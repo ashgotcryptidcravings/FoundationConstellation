@@ -10,9 +10,22 @@
 		DAC83FA02EFF29640000F906 /* Foundation Constellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foundation Constellation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DA6CC79F2EFF6EC900B21B0A /* Exceptions for "Foundation Constellation" folder in "Foundation Constellation" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DAC83F9F2EFF29640000F906 /* Foundation Constellation */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DAC83FA22EFF29640000F906 /* Foundation Constellation */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DA6CC79F2EFF6EC900B21B0A /* Exceptions for "Foundation Constellation" folder in "Foundation Constellation" target */,
+			);
 			path = "Foundation Constellation";
 			sourceTree = "<group>";
 		};
