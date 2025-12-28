@@ -14,8 +14,25 @@
     {
       "layers" : [
         {
+          "glass-specializations" : [
+            {
+              "value" : true
+            },
+            {
+              "idiom" : "square",
+              "value" : true
+            }
+          ],
+          "hidden" : false,
           "image-name" : "AppStore_1024 1.png",
-          "name" : "AppStore_1024 1"
+          "name" : "AppStore_1024 1",
+          "position" : {
+            "scale" : 1.6,
+            "translation-in-points" : [
+              0,
+              1.1368683772161603e-13
+            ]
+          }
         }
       ],
       "shadow" : {
