@@ -6,7 +6,9 @@ struct Foundation_ConstellationApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .modelContainer(for: Item.self) // we'll swap Item for your models later
         }
+        // This is where SwiftData lives. We’re telling it:
+        // "Store and sync Space objects for this app."
+        .modelContainer(for: Space.self)
     }
 }
